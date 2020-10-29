@@ -6,8 +6,8 @@
 body{
   font-family: Sailec-Regular,"system-ui",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,"sans-serif";
 }
-p{
-  color: grey;
+h1{
+  font-size: 50px;
 }
 #header_top{
   width: 100%;
@@ -48,10 +48,39 @@ p{
 
 #header_bottom{
   width: 100%;
-  height: 600px;
   color: white;
   padding-top: 50px;
   background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+}
+.headerbottom-p{
+  color: lightgrey;
+  font-size: 20px;
+  padding-top: 20px;
+}
+#header_bottom h1{
+  padding-top: 40px;
+}
+.bluh2{
+  color: blue;
+}
+
+.button-blue{
+  background-color: lightblue;
+}
+.btn {
+    width: 100%;
+}
+
+.header_bottom_right{
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 60px;
+  color: rgb(1, 14, 39);
+  margin-bottom: 60px;
+}
+.termsofservice{
+  font-size: 10px;
+  color: rgb(1, 14, 39);
 }
 
 #main_top_loghi{
