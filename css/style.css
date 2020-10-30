@@ -158,7 +158,6 @@ ul{
 }
 #customers{
   width: 100%;
-  height: 700px;
   color: white;
   background-color: rgb(3, 27, 78);
 }
@@ -169,12 +168,44 @@ ul{
 .test_speed{
   color: rgb(0, 215, 210);
 }
+.border_bottom{
+  border-bottom: 1px solid lightgrey;
+}
 #development_teams{
   width: 100%;
-  height: 400px;
   background-color: rgb(243, 245, 249);
 }
-
+#development_teams h2{
+  margin-top: 0px;
+  padding-top: 50px;
+}
+.development_teams_page{
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+}
+.development_teams_page img{
+  width: 36%;
+  padding: 50px 0 50px 0;
+}
+.development_teams_page p {
+  margin-bottom: 60px;
+  font-size: 30px;
+}
+.development_teams_page p img{
+  width: 2%;
+}
+.middle{
+  vertical-align: middle;
+  line-height: 35;
+}
+.development_teams_page span{
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.read_story{
+  font-size: 20px;
+}
 #footer_top{
   width: 100%;
   height: 200px;
